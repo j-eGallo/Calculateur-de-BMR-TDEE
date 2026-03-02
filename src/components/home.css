@@ -1,0 +1,47 @@
+.tdeebox {
+  background: linear-gradient(90deg,rgba(51, 255, 0, 0.384) 0%, rgba(0, 209, 122, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  padding: 55px;
+  height: 595px;
+  border-radius: 30px;
+  width: 700px;
+}
+
+.values {
+  width: 45%;
+  place-self: center;
+}
+
+.values input {
+  place-self: center;
+  width: 100%;
+  padding: 10px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.submit {
+  margin-top: 35px;
+}
+
+.myinputs {
+  margin-top: 30px;
+}
+
+.myinputs h1 {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 0;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.result {
+  color: white;
+  font-size: 35px;
+  margin-top: 35px;
+}
